@@ -24,7 +24,10 @@ def guess_number():
         dem += 1
         number_guess = int(number_entry.get())
         if number_guess == secret_number:
-            label_result.config(text=f"Chúc mừng bạn đã đoán đúng số bí mật!\nSố lần đoán: {dem}")
+            if dem > 5:
+                label_result.config(text=f"Chúc mừng bạn đã đoán đúng số bí mật với số lần đoán là: {dem}")
+            else:
+                label_result.config(text=f"Chúc mừng bạn đã hoàn thành trò chơi xuất sắc!!!\nSố lần đoán là: {dem}")
         elif number_guess > secret_number:
             label_result.config(text="Số bạn đoán cao hơn số bí mật")
         else:
