@@ -1,12 +1,12 @@
 # 🎮 Guess Number Game
 
-Một mini project Python: trò chơi **đoán số** với 2 phiên bản:
-- `guess_number.py` → chạy trên terminal.
-- `gui_guess.py` → giao diện GUI (Tkinter).
+A mini project Python: Game **Guess the number** with 2 versions:
+- `guess_number.py` → run in terminal.
+- `gui_guess.py` → run in GUI (Tkinter).
 
 ---
 
-## 🚀 Cách chạy dự án
+## 🚀 How to run program
 
 ### 1. Clone repo
 ```bash
@@ -18,7 +18,7 @@ cd guess_number
 ```bash
 py guess_number.py
 ```
-# Play with UI Tkinter
+# Play with GUI Tkinter
 ```bash
 py gui_guess.py
 ```
