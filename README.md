@@ -12,3 +12,13 @@ Một mini project Python: trò chơi **đoán số** với 2 phiên bản:
 ```bash
 git clone https://github.com/<username>/guess_number.git
 cd guess_number
+```
+## Run program
+# Play in terminal
+```bash
+py guess_number.py
+```
+# Play with UI Tkinter
+```bash
+py gui_guess.py
+```
