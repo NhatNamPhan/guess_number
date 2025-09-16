@@ -84,7 +84,7 @@ button_check.pack(pady=10)
 label_result = tk.Label(
     main_frame,
     text="",
-    font=('Arial', 10, 'bold'),
+    font=('Arial', 9, 'bold'),
     bg='#f0f0f0',
     fg='#333333'
 )
